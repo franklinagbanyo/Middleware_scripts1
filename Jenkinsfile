@@ -1,22 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('create zip file') {
             steps {
-                echo 'hello build'
+            zip middlewareScript$-{BUILD_NUMBER}.zip *  --exclude Jenkinsfile README.md sonar os
             }
         }
-        stage('Test') {
-            steps {
-                echo 'hello test'
-            }
-            }
-        stage('deploy') {
-            steps {
-                echo 'hello deploy'
-            }
-        }
-
-        }
-        
     }
+}
+        
