@@ -2,7 +2,7 @@
 
 
 #Description:This script is to verify that users exist on our system.
-#Author : Fleur Yeboah
+#Author : Franklin
 #Date : March 2, 2022
 
 
