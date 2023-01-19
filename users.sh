@@ -3,7 +3,7 @@
 
 #Description:This script is to verify that users exist on our system.
 #Author : Franklin
-#Date : March 2, 2022
+#Date : January 2, 2023
 
 
 echo "Please enter your username:  "
